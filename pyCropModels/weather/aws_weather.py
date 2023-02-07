@@ -126,7 +126,7 @@ class AwsNasaPower:
         return region_ds
 
 
-class AWS_WOFOST(WeatherDataProvider):
+class Aws_Wofost(WeatherDataProvider):
     """WeatherDataProvider for using the AWS NASA POWER database with PCSE
 
     :param latitude: latitude to request weather data for
