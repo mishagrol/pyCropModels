@@ -1,0 +1,37 @@
+{
+    "cropRotation": [
+        {
+            "worksteps": [
+                {
+                    "date": "2022-05-02",
+                    "type": "Sowing",
+                    "crop": {
+                        "is-winter-crop": false,
+                        "cropParams": {
+                            "species": [
+                                "include-from-file",
+                                "crops/barley.json"
+                            ],
+                            "cultivar": [
+                                "include-from-file",
+                                "crops/barley/spring-barley.json"
+                            ]
+                        },
+                        "residueParams": [
+                            "include-from-file",
+                            "crop-residues/barley.json"
+                        ]
+                    }
+                },
+                {
+                    "date": "2022-09-01",
+                    "type": "Harvest"
+                }
+            ]
+        }
+    ],
+    "CropParameters": [
+        "include-from-file",
+        "general/crop.json"
+    ]
+}

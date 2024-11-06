@@ -1,15 +1,14 @@
 import datetime as dt
-import yaml
-from ..weather.aws_weather import Aws_Wofost
 
-import pcse
-from pcse.models import Wofost71_WLP_FD, Wofost71_PP
-from pcse.fileinput import CABOFileReader, YAMLCropDataProvider
-from pcse.db import NASAPowerWeatherDataProvider
-from pcse.util import WOFOST71SiteDataProvider, DummySoilDataProvider
+import yaml
 from pcse.base import ParameterProvider
+from pcse.db import NASAPowerWeatherDataProvider
 from pcse.engine import Engine
-from pcse.fileinput import csvweatherdataprovider
+from pcse.fileinput import CABOFileReader, YAMLCropDataProvider, csvweatherdataprovider
+from pcse.models import Wofost71_PP, Wofost71_WLP_FD
+from pcse.util import DummySoilDataProvider, WOFOST71SiteDataProvider
+
+from pyCropModels.weather.aws_weather import Aws_Wofost
 
 
 class WOFOST:
@@ -31,7 +30,7 @@ class WOFOST:
         return wdp
 
     def get_soil(self, lon: float, lat: float):
-        pass
+        return "Done"
 
     def compute(
         self,

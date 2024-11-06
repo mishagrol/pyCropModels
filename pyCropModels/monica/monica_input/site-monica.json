@@ -1,0 +1,159 @@
+{
+    "SiteParameters": {
+        "Latitude": 51.5,
+        "Slope": 0.03492076949174773,
+        "HeightNN": [
+            170,
+            "m"
+        ],
+        "NDeposition": [
+            5,
+            "kg N ha-1 y-1"
+        ],
+        "SoilProfileParameters": [
+            {
+                "Thickness": [
+                    0.37,
+                    "m"
+                ],
+                "SoilOrganicCarbon": 4.6517578125,
+                "KA5TextureClass": "Lu",
+                "Sand": 0.045368359375,
+                "Clay": 0.10318359375,
+                "Skeleton": [
+                    0.02,
+                    "%[0-1]"
+                ],
+                "PoreVolume": [
+                    0.566,
+                    "m3 m-3"
+                ],
+                "FieldCapacity": [
+                    0.3,
+                    "m3 m-3"
+                ],
+                "PermanentWiltingPoint": [
+                    0.15,
+                    "m3 m-3"
+                ],
+                "pH": [
+                    6.213
+                ],
+                "CN": [
+                    12.481
+                ],
+                "SoilBulkDensity": 1101.539990234375
+            },
+            {
+                "Thickness": [
+                    0.23,
+                    "m"
+                ],
+                "SoilOrganicCarbon": [
+                    2.38,
+                    "%"
+                ],
+                "KA5TextureClass": "Lu",
+                "Sand": [
+                    0.066,
+                    "kg kg-1 (%[0-1])"
+                ],
+                "Clay": [
+                    0.13,
+                    "kg kg-1 (%[0-1])"
+                ],
+                "Skeleton": [
+                    0.02,
+                    "%[0-1]"
+                ],
+                "PoreVolume": [
+                    0.401,
+                    "m3 m-3"
+                ],
+                "FieldCapacity": [
+                    0.3,
+                    "m3 m-3"
+                ],
+                "PermanentWiltingPoint": [
+                    0.15,
+                    "m3 m-3"
+                ],
+                "pH": [
+                    6.787
+                ],
+                "CN": [
+                    10.139
+                ],
+                "SoilBulkDensity": [
+                    1544.678,
+                    "kg m-3"
+                ]
+            },
+            {
+                "Thickness": [
+                    1.3,
+                    "m"
+                ],
+                "SoilOrganicCarbon": [
+                    0.6,
+                    "%"
+                ],
+                "KA5TextureClass": "Lu",
+                "Sand": [
+                    0.069,
+                    "kg kg-1 (%[0-1])"
+                ],
+                "Clay": [
+                    0.136,
+                    "kg kg-1 (%[0-1])"
+                ],
+                "Skeleton": [
+                    0.02,
+                    "%[0-1]"
+                ],
+                "PoreVolume": [
+                    0.37,
+                    "m3 m-3"
+                ],
+                "FieldCapacity": [
+                    0.3,
+                    "m3 m-3"
+                ],
+                "PermanentWiltingPoint": [
+                    0.15,
+                    "m3 m-3"
+                ],
+                "pH": [
+                    8.013
+                ],
+                "CN": [
+                    7.705
+                ],
+                "SoilBulkDensity": [
+                    1599.873,
+                    "kg m-3"
+                ]
+            }
+        ]
+    },
+    "SoilTemperatureParameters": [
+        "include-from-file",
+        "general/soil-temperature.json"
+    ],
+    "EnvironmentParameters": [
+        "include-from-file",
+        "general/environment.json"
+    ],
+    "SoilOrganicParameters": [
+        "include-from-file",
+        "general/soil-organic.json"
+    ],
+    "SoilTransportParameters": [
+        "include-from-file",
+        "general/soil-transport.json"
+    ],
+    "SoilMoistureParameters": [
+        "include-from-file",
+        "general/soil-moisture.json"
+    ]
+}
