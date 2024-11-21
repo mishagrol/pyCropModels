@@ -16,10 +16,19 @@
                     0.37,
                     "m"
                 ],
-                "SoilOrganicCarbon": 4.6517578125,
+                "SoilOrganicCarbon": [
+                    5.1,
+                    "%"
+                ],
                 "KA5TextureClass": "Lu",
-                "Sand": 0.045368359375,
-                "Clay": 0.10318359375,
+                "Sand": [
+                    0.037,
+                    "kg kg-1 (%[0-1])"
+                ],
+                "Clay": [
+                    0.09,
+                    "kg kg-1 (%[0-1])"
+                ],
                 "Skeleton": [
                     0.02,
                     "%[0-1]"
@@ -42,7 +51,10 @@
                 "CN": [
                     12.481
                 ],
-                "SoilBulkDensity": 1101.539990234375
+                "SoilBulkDensity": [
+                    1126.625,
+                    "kg m-3"
+                ]
             },
             {
                 "Thickness": [
